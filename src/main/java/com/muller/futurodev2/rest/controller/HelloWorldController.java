@@ -12,8 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.websocket.server.PathParam;
 
-import static org.springframework.http.ResponseEntity.ok;
-
 @RestController
 public class HelloWorldController {
 

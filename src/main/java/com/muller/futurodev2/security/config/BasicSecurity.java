@@ -29,10 +29,9 @@ public class BasicSecurity extends WebSecurityConfigurerAdapter {
                         (request, response, ex) -> {
                             response.sendError(
                                     HttpServletResponse.SC_UNAUTHORIZED,
-                                    ex.getMessage()
-                            );
-                        }
-                ).and();
+                                    ex.getMessage());
+                        })
+                .and();
 
         httpSecurity.authorizeRequests()
                 .antMatchers("/helloworld").hasRole("COMMON_USER")
@@ -44,7 +43,8 @@ public class BasicSecurity extends WebSecurityConfigurerAdapter {
         httpSecurity.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 .and()
                 .httpBasic();
-        //utilizado para conseguir abrir o console do h2 no browser sem que solicite o usuário e senha antes.
+        // utilizado para conseguir abrir o console do h2 no browser sem que solicite o
+        // usuário e senha antes.
         httpSecurity.headers().frameOptions().sameOrigin();
         httpSecurity.csrf().disable();
     }
