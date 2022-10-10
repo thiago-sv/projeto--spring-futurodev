@@ -1,4 +1,4 @@
-package com.muller.futurodev2.security.domain;
+package com.senai.futurodev2.security.domain;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

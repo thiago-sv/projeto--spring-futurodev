@@ -1,4 +1,4 @@
-package com.muller.futurodev2.domain.model;
+package com.senai.futurodev2.domain.model;
 
 public class EnderecoModel {
     private String rua;

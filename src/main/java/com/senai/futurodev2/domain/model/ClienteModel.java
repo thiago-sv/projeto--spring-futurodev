@@ -1,4 +1,4 @@
-package com.muller.futurodev2.domain.model;
+package com.senai.futurodev2.domain.model;
 
 public class ClienteModel {
     private String nome;
@@ -28,8 +28,6 @@ public class ClienteModel {
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
-
-
 
     @Override
     public String toString() {

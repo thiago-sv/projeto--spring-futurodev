@@ -1,11 +1,12 @@
-package com.muller.futurodev2.domain.service;
+package com.senai.futurodev2.domain.service;
 
-import com.muller.futurodev2.domain.model.ClienteModel;
-import com.muller.futurodev2.domain.model.EnderecoModel;
-import com.muller.futurodev2.domain.repository.UsuarioRepository;
-import com.muller.futurodev2.rest.dto.UsuarioDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.senai.futurodev2.domain.model.ClienteModel;
+import com.senai.futurodev2.domain.model.EnderecoModel;
+import com.senai.futurodev2.domain.repository.UsuarioRepository;
+import com.senai.futurodev2.rest.dto.UsuarioDto;
 
 @Service
 public class UsuarioService {

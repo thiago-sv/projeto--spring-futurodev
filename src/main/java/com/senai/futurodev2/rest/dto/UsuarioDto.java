@@ -1,4 +1,4 @@
-package com.muller.futurodev2.rest.dto;
+package com.senai.futurodev2.rest.dto;
 
 public class UsuarioDto {
     private String nome;

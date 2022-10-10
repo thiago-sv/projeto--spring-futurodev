@@ -1,9 +1,10 @@
-package com.muller.futurodev2.domain.repository;
+package com.senai.futurodev2.domain.repository;
 
-import com.muller.futurodev2.domain.model.ClienteModel;
-import com.muller.futurodev2.domain.model.EnderecoModel;
-import com.muller.futurodev2.rest.dto.UsuarioDto;
 import org.springframework.stereotype.Repository;
+
+import com.senai.futurodev2.domain.model.ClienteModel;
+import com.senai.futurodev2.domain.model.EnderecoModel;
+import com.senai.futurodev2.rest.dto.UsuarioDto;
 
 @Repository
 public class UsuarioRepository {

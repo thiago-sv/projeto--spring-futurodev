@@ -1,4 +1,4 @@
-package com.muller.futurodev2;
+package com.senai.futurodev2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

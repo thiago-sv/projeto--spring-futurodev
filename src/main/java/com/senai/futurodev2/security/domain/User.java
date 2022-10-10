@@ -1,4 +1,4 @@
-package com.muller.futurodev2.security.domain;
+package com.senai.futurodev2.security.domain;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -38,9 +38,8 @@ public class User implements UserDetails {
     private Boolean enabled;
 
     @ManyToMany(fetch = FetchType.EAGER)
-    @JoinTable(name = "user_permissions", joinColumns = {@JoinColumn (name = "id_user")},
-            inverseJoinColumns = {@JoinColumn(name = "id_permission")}
-    )
+    @JoinTable(name = "user_permissions", joinColumns = { @JoinColumn(name = "id_user") }, inverseJoinColumns = {
+            @JoinColumn(name = "id_permission") })
     private List<Permission> permissions;
 
     public List<String> getRoles() {

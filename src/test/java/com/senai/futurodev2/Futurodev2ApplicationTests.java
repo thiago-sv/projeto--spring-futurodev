@@ -1,4 +1,4 @@
-package com.muller.futurodev2;
+package com.senai.futurodev2;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

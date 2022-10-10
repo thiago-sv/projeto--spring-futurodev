@@ -1,6 +1,5 @@
-package com.muller.futurodev2.security.config;
+package com.senai.futurodev2.security.config;
 
-import com.muller.futurodev2.security.domain.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -10,6 +9,8 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+
+import com.senai.futurodev2.security.domain.UserService;
 
 import javax.servlet.http.HttpServletResponse;
 
