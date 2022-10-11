@@ -36,7 +36,7 @@ public class BasicSecurity extends WebSecurityConfigurerAdapter {
 
         httpSecurity.authorizeRequests()
                 .antMatchers("/helloworld").hasRole("COMMON_USER")
-                .antMatchers("/usuario").hasRole("ADMIN")
+                .antMatchers("/usuario").hasRole("MANAGER")
                 .antMatchers("/actuator/**").permitAll()
                 .antMatchers("/h2-console/**").permitAll()
                 .anyRequest().authenticated();

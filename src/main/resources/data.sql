@@ -29,7 +29,7 @@ INSERT INTO PERMISSIONS (description) VALUES
 	('COMMON_USER');
 
 INSERT INTO USERS (user_name, full_name, password, account_non_expired, account_non_locked, credentials_non_expired, enabled) VALUES
-('eduardo', 'Eduardo Muller', '$2a$10$2MG9wpqjFasvTWZUQqyZR.JWZFmAVvHTC1wU0j911mqniaENGrega', 1, 1, 1, 1);
+('thiago', 'thiago vieira', '$2a$10$2MG9wpqjFasvTWZUQqyZR.JWZFmAVvHTC1wU0j911mqniaENGrega', 1, 1, 1, 1);
 
 INSERT INTO USERS (user_name, full_name, password, account_non_expired, account_non_locked, credentials_non_expired, enabled) VALUES
 ('joao', 'Joao do Caminhao', '$2a$12$fH6tBz0ovRyWHYJws6D3K.p7WQ6zGz/95WddB2xud4H3dJYmjhCN2', 1, 1, 1, 1);
